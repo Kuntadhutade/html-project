@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Fitness forms</h1>
+    <form action="/process.php">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="your name here">
+        <br><br>
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" placeholder="yoour phone here">
+        <br><br>
+
+        <label for="pass">Password<label>
+                <input type="password" id="pass" name="password" placeholder="your password">
+                <br><br>
+
+                <label for="cpass">Conform Password<label>
+                        <input type="password" id="cpass" name="Conform password" placeholder="your password">
+                        <br><br>
+
+                        <p>Choose your gender</p>
+                        <input type="radio" id="gender" name="gender" value="male">
+                        <label for="gender">Male</label>
+
+
+                        <input type="radio" id="Female" name="gender" value="Female">
+                        <label for="gender">Female</label>
+
+                        <input type="radio" id="Other" name="gender" value="Other">
+                        <label for="gender">Other</label>
+
+
+                        <br>
+
+                        <p>Choose your hoddy</p>
+
+                        <input type="checkbox" id="playing" name="Playing" value="playing">
+                        <label for="playing">Playing</label>
+
+
+                        <input type="checkbox" id="Singing" name="Singing" value="Singing">
+                        <label for="singing">Singing</label>
+
+
+                        <input type="checkbox" id="Dancing" name="Dancing" value="Dancing">
+                        <label for="dancing">Dancing</label>
+                        <br><br>
+
+                        <label for="city">Choose a city:</label>
+                        <select name="city" id="city">
+                            <option value="delhi">Delhi</option>
+                             <option value="mumbai">Mumbai</option>
+                              <option value="banglore">Banglore</option>
+                        </select>
+                        <br><br>
+
+                    <textarea name="description" id="description" rows="8" cols="100"></textarea>
+                    <br><br>
+
+
+                        <br><br><br>
+                        <input type="submit" value="Submit">
+
+    </form>
+</body>
+
+</html>
